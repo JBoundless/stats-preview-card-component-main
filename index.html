@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--Inter, 400-->
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<!--Inter, 700-->
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!--Lexend Deca-->
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: hsl(233, 47%, 7%);
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      display: inline-flex;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: hsl(244, 38%, 16%);
+      border-radius: 15px;
+    }
+    .card-info {
+      padding-top: 50px;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-bottom: 25px;
+    }
+    h1 {
+      color: hsl(0, 0%, 100%);
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    p {
+      font-size: 20px;
+      color: hsla(0, 0%, 100%, 0.75);
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      margin-right: 15px;
+      line-height: 2;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .statistics {
+      font-family: 'Lexend Deca', sans-serif;
+      color: hsla(0, 0%, 100%, 0.6);
+    }
+    .statistics-info {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .card-info {
+      width: 50%;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .header-image {
+      background-color: hsl(277, 64%, 61%);
+      opacity: 0.8;
+      border-radius: 0px 15px 15px 0px;
+    }
+    img {
+      height: 100%;
+      border-radius: 0px 15px 15px 0px;
+    }
+    #insights {
+      color: hsl(277, 64%, 61%);
+    }
+    #numbers {
+      color: hsl(0, 0%, 100%);
+    }
+    img {
+      opacity: 0.5;
+    }
+    .attribution { font-size: 11px; text-align: center; color: white; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="card">
+  <div class="card-info">
+    <h1>Get <span id="insights">insights</span> that help<br> your business grow.</h1>
+
+    <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+    experience, and overall efficiency.</p>
+    <div class="statistics">
+      <div class="statistics-info">
+        <p><span id="numbers"><b>10k+</b></span><br>COMPANIES</p>
+        <p><span id="numbers"><b>314</b></span><br>TEMPLATES</p>
+        <p><span id="numbers"><b>12M+</b></span><br>QUERIES</p>
+  </div>
+    </div>
+  </div>
+  <div class="header-image">
+    <img src="images/image-header-desktop.jpg">
+  </div>
+  </div>
+</div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/JBoundless">Your Name Here</a>.
+  </div>
+</body>
+</html>
